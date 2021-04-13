@@ -1,0 +1,208 @@
+div.home{
+    margin: 0;
+    padding: 0;
+    background: url('prayaashome1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;height: 700px;
+    
+}
+div.about{
+    margin: 0;
+    padding: 0;
+    background: url('internabout.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;height: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 4);
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: rgb(201, 198, 28);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h1{
+    font-size: 400%;
+    text-align: center;
+    color: rgb(243, 18, 18);
+    padding-top: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p.three{
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(245, 76, 76);
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    background-color:royalblue;
+    border: none;
+    color: black;
+    opacity: 1;
+    font-size: xx-large;
+    margin-right: 5%;
+    padding: 10px 30px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
+    position:absolute;
+    top: 500px;
+    left: 45%;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    color: black;
+    text-shadow: 5px 2px 5px white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p.one{
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 100px;
+    padding-right: 20px;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 350px;
+    width: 700px;
+    color: black;
+    border: 5px double;
+border-color: blue;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after{
+    content: '\00bb';
+    position:absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.button:hover span{
+    padding-right: 25px;
+}
+.button:hover span:after{
+    opacity: 1;
+    right: 0;
+}
+.paymentbox{
+    
+    border-radius: 70px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+text-align: centre;
+color: rgb(247, 2, 84);
+margin: 5%;
+}
+.paymentbox h3{
+    text-align: center;
+    font-size: 100%;
+}
+.paymentbox .user{
+    margin-bottom: 50px;
+}
+.donate{
+    text-align: center;
+}
+.contact{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:url('donate.jpg');
+    background-size: cover;
+    background-repeat:no-repeat ;
+  max-width: 100%;height: 700px;
+    }
+    .contact .content{
+        max-width: 800px;
+        text-align: center;
+    }
+    .contact .content h4{
+        font-size: 36px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(8, 200, 248);
+       }
+       .contact .content .edit{
+       font-size: 20px;
+        font-weight: 300;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(170, 224, 238);
+     }
+     .container{ 
+         box-sizing: border-box;
+        width: 100%;
+        display: flex;
+      }
+      .container > div{
+          background-color: lavender;
+          height: auto;
+          margin: 10px;
+          width: 100%;
+          line-height: 50px;
+          text-align: center;
+           }
+           .container .box{
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .container .box .icon
+        {
+            min-width: 60px;
+            height: 60px;
+            background: rgb(78, 204, 204);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            font-size: 20px;
+        }
+        .container .box .text{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+            display: flex;
+            color: rgba(10, 10, 10, 0.712);
+            flex-direction: column;
+            margin-left: 20px;
+            font-weight: 300;
+        }
+        .container .box .text h5{
+            font-size: 20px;
+            font-weight: 500;
+            color: rgba(0, 0, 2, 0.24);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
